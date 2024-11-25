@@ -1,0 +1,90 @@
+name: volunteer
+description: Проєкт для об'єднання волонтерів та координаторів в зручну мотиваційну та інформативну систему.
+publish_to: 'none'
+version: 1.0.0
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  #region UI
+  cupertino_icons: ^1.0.3
+  #endregion
+
+  #region Maps
+  google_maps_flutter: ^2.0.5
+  #endregion
+
+  #region Firebase
+  firebase_core: ^1.2.0
+
+  # Authentication
+  firebase_auth: ^1.2.0
+  flutter_facebook_auth: ^3.4.0
+  sign_in_with_apple: ^3.0.0
+  google_sign_in: ^5.0.2
+  flutter_signin_button: ^2.0.0
+
+  # Crashes & reporting
+  firebase_crashlytics: ^2.0.4
+
+  # Push notifications
+  firebase_messaging: ^10.0.0
+
+  # Database & storage
+  cloud_firestore: ^2.2.0
+  firebase_storage: ^8.1.0
+  #endregion
+
+  #region Other
+  # Permissions handling
+  permission_handler: ^7.1.0
+
+  # Network
+  http: ^0.13.3
+  url_launcher: ^6.0.4
+  webview_flutter: ^2.0.8
+
+  # State management
+  provider: ^5.0.0
+
+  # File system
+  path_provider: ^2.0.1
+  camera: ^0.8.1
+
+  # Security
+  crypto: ^3.0.1
+
+  #RateApp
+  rate_my_app: ^1.1.0+1
+
+  # Utility
+  uuid: ^3.0.4
+  intl: ^0.17.0
+  json_annotation: ^4.0.1
+  flutter_svg: ^0.22.0
+  #endregion
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  json_serializable: ^4.1.1
+  build_runner: ^2.0.2
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/settings_screen/
+    - assets/images/information_screen/
+    - assets/images/images_for_articles/
+    - assets/images/images_for_centers/
+    - assets/images/logo.png
+    - assets/images/default_avatar.jpg
+    - assets/images/profile_screen/
+    - assets/images/main_screen/
+

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "408262620943",
+    "project_id": "volunteer-ukraine",
+    "storage_bucket": "volunteer-ukraine.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:408262620943:android:c704a1e5842727825af07a",
+        "android_client_info": {
+          "package_name": "com.olegnovosad.volunteer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "408262620943-avm78hn3mgp207dp1ul51i465ro6fvf3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWjf2BAuU6i99Ox-H0_6J5yc3adbRNcIY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "408262620943-avm78hn3mgp207dp1ul51i465ro6fvf3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

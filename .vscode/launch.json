@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "Run",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "debug",
+        },
+        {
+            "name": "Web",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "debug",
+            "args": [
+                "-d",
+                "chrome",
+                "--web-port=5000",
+                "--web-enable-expression-evaluation"
+            ]
+        },
+    ]
+}
